@@ -1,0 +1,20 @@
+//variables 
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//colors
+$blue: #61C4D9;
+$darkGreen: #497870;
+
+//normalise 
+@import "../normalize.css";
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
+@import "./layout.scss";
+
+//components 
+@import "./hero.scss";
+@import "./header.scss";
+@import "./features.scss";
+@import "./feature.scss";
