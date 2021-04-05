@@ -71,7 +71,7 @@ footer {
 }
 
 .hero {
-  background: url("./img/decor/bg-leaf1.png") right bottom no-repeat;
+  background: url("../../img/decor/bg-leaf1.png") right bottom no-repeat;
   background-color: #61C4D9;
   color: #fff;
   height: 100vh;
@@ -82,17 +82,17 @@ footer {
   position: absolute;
   bottom: -40px;
   left: 2%;
-  content: url(./img/decor/corner-leaf.png);
+  content: url(../../img/decor/corner-leaf.png);
 }
 .hero:after {
   position: absolute;
-  content: url(./img/decor/leaves1.png);
+  content: url(../../img/decor/leaves1.png);
   bottom: -40px;
   right: 0;
 }
 
 .hero__container {
-  background: url("./img/decor/chocolates.png") right center/50% auto no-repeat;
+  background: url("../../img/decor/chocolates.png") right center/50% auto no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -265,7 +265,7 @@ footer {
   position: relative;
 }
 .benefits__item:before {
-  content: url("./img/decor/dots.png");
+  content: url("../../img/decor/dots.png");
   position: absolute;
   top: 30px;
   right: 0;
@@ -312,10 +312,10 @@ footer {
 
 .benefits-section {
   position: relative;
-  background: url("./img/decor/bg-leaf2.png") left top 75% no-repeat;
+  background: url("../../img/decor/bg-leaf2.png") left top 75% no-repeat;
 }
 .benefits-section:before {
-  content: url("./img/decor/bg-leaf3.png");
+  content: url("../../img/decor/bg-leaf3.png");
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -453,7 +453,7 @@ footer {
 }
 
 .order-section {
-  background: url(./img/decor/pattern.png) no-repeat;
+  background: url(../../img/decor/pattern.png) no-repeat;
 }
 
 .radio {
@@ -466,7 +466,7 @@ footer {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url(./img/tick.png);
+  background: url(../../img/tick.png);
 }
 
 .radio__elem {
@@ -531,5 +531,5 @@ footer {
 }
 
 .map-section {
-  background: url(./img/map.png) center 0/cover no-repeat;
+  background: url(../../img/map.png) center 0/cover no-repeat;
 }
