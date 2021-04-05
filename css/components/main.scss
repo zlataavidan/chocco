@@ -4,7 +4,10 @@ $baseFontSize: 18px;
 
 //colors
 $blue: #61C4D9;
-$darkGreen: #497870;
+$darkGreen: #365A49;
+
+//z-indexes
+$z-fixed-menu: 100;
 
 //normalise 
 @import "../normalize.css";
@@ -18,3 +21,21 @@ $darkGreen: #497870;
 @import "./header.scss";
 @import "./features.scss";
 @import "./feature.scss";
+@import "./btn.scss";
+@import "./section.scss";
+@import "./headline.scss";
+@import "./benefits.scss";
+@import "./benefit.scss";
+@import "./benefits-section.scss";
+@import "./reviews.scss";
+@import "./interactive-avatar.scss";
+@import "./form.scss";
+@import "./order-section.scss";
+@import "./radio.scss";
+@import "./fixed-menu.scss";
+@import "./map-section.scss";
+
+
+
+
+

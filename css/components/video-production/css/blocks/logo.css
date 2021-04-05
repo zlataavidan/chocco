@@ -1,0 +1,11 @@
+.logo {
+  display: block;
+}
+
+.logo--header {
+  margin-right: 212px;
+}
+
+.logo--footer {
+  margin-right: 18px;
+}

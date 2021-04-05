@@ -1,0 +1,109 @@
+.socials {
+  top: 32px;
+  margin-right: -12px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+  position: relative;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__item-tg {
+  position: relative;
+}
+
+.socials__item-tg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  opacity: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; height: 36px;
+  background: url('../../img/sprite.png') -10px -66px;
+}
+
+.socials__item-vk {
+  position: relative;
+}
+
+.socials__item-vk::after {
+  content: "";
+  display: block;
+  position: absolute;
+  opacity: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; height: 36px;
+  background: url('../../img/sprite.png') -66px -66px;
+}
+
+.socials__item-fb {
+  position: relative;
+}
+
+.socials__item-fb::after {
+  content: "";
+  display: block;
+  position: absolute;
+  opacity: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; height: 36px;
+  background: url('../../img/sprite.png') -10px -10px;
+}
+
+.socials__item-insta {
+  position: relative;
+}
+
+.socials__item-insta::after {
+  content: "";
+  display: block;
+  position: absolute;
+  opacity: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; height: 36px;
+  background: url('../../img/sprite.png') -66px -10px;
+}
+
+.socials__item-tg:hover:after {
+  opacity: 100%;
+  transition: .3s;
+}
+
+.socials__item-vk:hover:after {
+  opacity: 100%;
+  transition: .3s;
+}
+
+.socials__item-fb:hover:after {
+  opacity: 100%;
+  transition: .3s;
+}
+
+.socials__item-insta:hover:after {
+  opacity: 100%;
+  transition: .3s;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background-color: center center no-repeat;
+  position: relative;
+  z-index: 10;
+}

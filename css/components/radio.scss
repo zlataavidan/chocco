@@ -1,0 +1,46 @@
+.radio {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+
+  &--checkbox {
+    .radio__visible {
+      border-radius: 0;
+
+      &:before {
+        background: url(/img/tick.png);
+      }
+    }
+  }
+}
+
+.radio__elem {
+  display: none;
+
+  &:checked ~ .radio__visible {
+    &::before {
+      display: block;
+    }
+  }
+}
+
+.radio__visible {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  border-radius: 50%;
+  background: #fff;
+
+  &:before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #365A49;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

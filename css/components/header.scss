@@ -4,13 +4,18 @@
   justify-content: space-between;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu__list {
   display: flex;
   align-items: center;
 }
 
 .menu__item {
-  margin-right: 15px;
+  margin-right: 33px;
 
   &:last-child {
     margin-right: 0;
