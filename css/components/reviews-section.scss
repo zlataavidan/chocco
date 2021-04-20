@@ -1,0 +1,15 @@
+.reviews-section {
+  background: url("../../img/decor/strawberries.png") right 20px top 10px no-repeat;
+  
+    &:before {
+      content: url("../../img/decor/bg-leaf3.png");
+      bottom: rem(-60px);
+      left: 0;
+    }
+
+    &:after {
+      content: url("../../img/decor/berries.png");
+      bottom: rem(-87px);
+      left: rem(4px);
+    }
+}
