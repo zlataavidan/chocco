@@ -1,0 +1,51 @@
+//variables 
+$containerWidth: 1020px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$blue: #61C4D9;
+$darkGreen: #365A49;
+
+//media requests
+@import "./media.scss";
+
+//z-indexes
+$z-fixed-menu: 100;
+
+//normalise 
+@import "../normalize.css";
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
+@import "./layout.scss";
+
+//components 
+@import "./hero.scss";
+@import "./header.scss";
+@import "./menu.scss";
+@import "./features.scss";
+@import "./feature.scss";
+@import "./btn.scss";
+@import "./section.scss";
+@import "./headline.scss";
+@import "./benefits.scss";
+@import "./benefit.scss";
+@import "./reviews.scss";
+@import "./interactive-avatar.scss";
+@import "./form.scss";
+@import "./radio.scss";
+@import "./fixed-menu.scss";
+@import "./map.scss";
+@import "./hamburger.scss";
+
+
+
+
+
+
+
+

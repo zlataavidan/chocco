@@ -1,0 +1,84 @@
+html {
+  font-size: $baseFontSize;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+
+  @include phones {
+    font-size: $baseFontSize - 2px;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Alegreya Sans', Helvetica, sans-serif;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: #666;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 95%;
+  max-width: rem($containerWidth);
+  margin: 0 auto;
+  position: relative;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: rem(0px);
+  margin: rem(0px);
+    li {
+      list-style: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: rem(0px);
+  font-weight: normal;
+}
+
+p {
+  padding: rem(0px);
+  margin: rem(0px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
